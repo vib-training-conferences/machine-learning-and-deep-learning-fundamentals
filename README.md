@@ -1,9 +1,9 @@
 <!--
-author:   name last_name
+author:   Heyse Jolan
 email:    trainingandconferences@vib.be
-version:  2.0.0
+version:  0.0.1
 language: en
-narrator: UK English Female
+narrator: UK English
 
 icon:     https://vib.be/sites/vib.sites.vib.be/files/logo_VIB_noTagline.svg
 
@@ -27,7 +27,7 @@ link:  https://raw.githubusercontent.com/vib-tcp/material-liascript/master/vib-s
 @orcid: [@0](@1)<!--class="orcid-logo-for-author-list"-->
 
 @edition:  1st 
-@CourseTitle: replace by course title
+@CourseTitle: Machine Learning and Deep Learning Fundamentals
 
 @JSONLD
 <script run-once>
@@ -63,19 +63,35 @@ This is the @edition edition of this workshop, jointly organised by VIB and ELIX
 
 ## General context
 
-This workshop is dedicated to ...
+Machine learning and deep learning are transforming research by enabling data-driven discoveries and predictive modeling. For many researchers, these techniques can unlock new insights from complex datasets, but getting started can feel overwhelming. 
+
+This two-day workshop is designed for researchers with little or no prior experience in machine learning who want to apply these methods in their own work. Through a mix of clear explanations and hands-on exercises in Jupyter notebooks, participants will learn how to process data, build regression and classification models, and train neural networks and convolutional neural networks. 
+
+By the end of the training, you will understand the fundamentals of machine learning and deep learning and gain practical skills to start applying these techniques to your research projects.
 
 ## Proposed Schedule
 
 Schedule day 1:
 
-- 9:30 - 11:00 - session
-- 11:00 - 11:15 - break
-- 11:15 - 12:45 - session
-- 12:45 - 13:45 - lunch
-- 13:45 - 15:15 - session
-- 15:15 - 15:30 - break
-- 15:30 - 17:00 - session
+- 9:00 - 9:30 - Welcome and set-up
+- 9:30 - 10:45 - Introduction to machine learning
+- 10:45 - 11:00 - Coffee break
+- 11:00 - 12:30 - Regression
+- 12:30 - 13:30 - Lunch break
+- 13:30 - 15:00 - Classification
+- 15:00 - 15:15 - Coffee break
+- 15:15 - 17:00 - Model selection
+
+Schedule day 2:
+
+- 9:00 - 10:45 - Introduction to neural networks
+- 10:45 - 11:00 - Coffee break
+- 11:00 - 12:30 - Deep neural networks
+- 12:30 - 13:30 - Lunch break
+- 13:30 - 15:00 - Convolutional neural networks
+- 15:00 - 15:15 - Coffee break
+- 15:15 - 16:45 - Advanced deep learning topics
+- 16:45 - 17:00 - Wrap-up
 
 </section>
 
@@ -85,37 +101,28 @@ Schedule day 1:
 >
 > <i class="fa fa-user"></i> **Target Audience:** Researchers, trainers, training providers
 >
-> <svg xmlns="http://www.w3.org/2000/svg" height="14" width="16" viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M384 64c0-17.7 14.3-32 32-32H544c17.7 0 32 14.3 32 32s-14.3 32-32 32H448v96c0 17.7-14.3 32-32 32H320v96c0 17.7-14.3 32-32 32H192v96c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32h96V320c0-17.7 14.3-32 32-32h96V192c0-17.7 14.3-32 32-32h96V64z"/></svg> **Level:** Beginner  
+> <svg xmlns="http://www.w3.org/2000/svg" height="14" width="16" viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M384 64c0-17.7 14.3-32 32-32H544c17.7 0 32 14.3 32 32s-14.3 32-32 32H448v96c0 17.7-14.3 32-32 32H320v96c0 17.7-14.3 32-32 32H192v96c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32h96V320c0-17.7 14.3-32 32-32h96V192c0-17.7 14.3-32 32-32h96V64z"/></svg> **Level:** Beginner
 >
-> <i class="fa fa-arrow-left"></i> **Prerequisites**  
-> To be able to follow this course, learners should have knowledge in:
-> 
-> 1. Basic knowlegde of HTML  
-> 2. Basic knowledge of ...
-> 3. Being comfortable working with ....  
+> <i class="fa fa-arrow-left"></i> **Prerequisites**   
+> 1. Familiarity with Python will be required (recommended course: [Programming in Python: master your first project](https://training.vib.be/all-trainings/programming-python-master-your-first-project))
+> 2. No prior machine learning experience required
 >
 > <i class="fa fa-bookmark"></i> **Description**  This course consist of .....
 > 
 > <i class="fa fa-arrow-right"></i> **Learning Outcomes:**  
 > By the end of the course, learners will be able to:
 >
-> 1. Define what ..... [Remembering] 
+> 1. Explain the fundamental concepts of machine learning and deep learning
+> 2. Apply data preprocessing techniques such as handling missing values, scaling features, and splitting datasets
+> 3. Implement regression and classification models with scikit-learn and evaluate their performance using appropriate metrics
+> 4. Construct simple neural networks and convolutional neural networks with PyTorch framework
+> 5. Identify issues with model behavior, like overfitting, and adopt solutions such as regularization or dropout
+> 6. Interpret the results of machine learning and deep learning models to make informed decisions for research applications 
 >
-> 2. Discuss and explain ..... [Understanding] 
 >
-> 3. Apply and modify ..... [Applying] 
+> <i class="fa fa-hourglass"></i> **Time estimation**: 2 days
 >
-> 4. Compare ..... [Analysing] 
->
-> 5. Evaluate and select ..... [Evaluating] 
->
-> 6. Create and integrate ..... [Creating]
->
->> Check more about [Bloom's taxonomy](https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/) to categorize the levels in educational goals
->
-> <i class="fa fa-hourglass"></i> **Time estimation**: 120 minutes
->
-> <i class="fa fa-asterisk"></i> **Requirements:** The (technical) installation requirements are described in the [installations](https://vibbits-nextflow-workshop.readthedocs.io/en/latest/installations.html) section.
+> <i class="fa fa-asterisk"></i> **Requirements:** To follow this course and do the exercices, you need to have [Python](https://www.python.org/downloads/) installed on your computer, and be able to run [Jupyter Notebook](https://jupyter.org/) files. 
 >
 > <i class="fa fa-envelope-open-text"></i> **Supporting Materials**:
 > 
@@ -136,45 +143,34 @@ Schedule day 1:
 
 Authors
 
-- @[orcid(Paulo Czarnewski)](http://orcid.org/0000-0001-8150-4021)
-- @[orcid(Name)](http://orcid.org/0000-0000-0000-0000)
-- @[orcid(Name)](http://orcid.org/0000-0000-0000-0000)
-
-Contributors
-
-- @[orcid(Name)](http://orcid.org/0000-0000-0000-0000)
-- @[orcid(Name)](http://orcid.org/0000-0000-0000-0000)
+- @[orcid(Jolan Heyse)](https://orcid.org/0000-0003-2179-0366)
 
 
 ## Citing this lesson
 
 Please cite as:
-
-  1. ...
+Jolan Heyse, Machine Learning and Deep Learning Fundamentals (VIB Training)
 
 # Chapters List
 
 | Chapter | Title                                                   |
 | :---- | :------------------------------------------------         |
-| 0     | [Get ready for the course, instalation and pre-reading](link) |
-| 1     | [Chapter title](link)                                             |
-| 2     | [Chapter title](link)                                             |
-| 3     | [Chapter title](link)                                             |
+| 1     | [Introduction to machine learning](link)                  |
+| 2     | [Regression](link)                                        |
+| 3     | [Classification](link)                                    |
+| 4     | [Model selection](link)                                   |
+| 5     | [Introduction to neural networks](link)                   |
+| 6     | [Deep neural networks](link)                              |
+| 7     | [Convolutional neural networks](link)                     |
+| 8     | [Advanced deep learning topics](link)                     |
 
 
 # References
 
 Here are some great tips for learning and to get inspired for writing your own pipelines:
 
-- Nextflow's official documentation ([link](https://www.nextflow.io/docs/latest/index.html))
-- Reach out to the community on Slack ([link](https://www.nextflow.io/slack-invite.html))
-- Curated collection of patterns ([link](https://github.com/nextflow-io/patterns))
-- Workshop focused on DSL2 developed by CRG Bioinformatics Core ([link](https://github.com/biocorecrg/ELIXIR_containers_nextflow))
-- Tutorial exercises (DSL1) developed by Seqera ([link](https://github.com/seqeralabs/nextflow-tutorial))
-- Curated ready-to-use analysis pipelines by NF-core ([link](https://nf-co.re/))
-- Model example pipeline on Variant Calling Analysis with NGS RNA-Seq data developed by CRG ([link](https://github.com/CRG-CNAG/CalliNGS-NF))
-- Tutorial by Andrew Severin ([link](https://bioinformaticsworkbook.org/dataAnalysis/nextflow/02_creatingAworkflow.html#gsc.tab=0))
-- Nextflow community basic training ([link](https://training.nextflow.io/basic_training/))
+- Scikit-learn's official documentation ([link](https://scikit-learn.org/stable/index.html))
+- Pytorch's official documentation ([link](https://docs.pytorch.org/tutorials/?_gl=1*1drqazn*_up*MQ..*_ga*MTEwMDYxMDMyOC4xNzY4MjEyMTc2*_ga_469Y0W5V62*czE3NjgyMTIxNzUkbzEkZzAkdDE3NjgyMTIxNzUkajYwJGwwJGgw))
 
 # About us
 
@@ -198,9 +194,9 @@ The goal of VIB Technology Training is to up-skill life scientists to excel in t
 
 *Editorial team for this course*
 
-Authors: @[orcid(Alexander Botzki)](https://orcid.org/0000-0001-6691-4233), @[orcid(Bruna Piereck)](https://orcid.org/0000-0001-5958-0669)
+Authors: @[orcid(Jolan Heyse)](https://orcid.org/0000-0003-2179-0366), @[orcid(Bruna Piereck)](https://orcid.org/0000-0001-5958-0669), @[orcid(Alexander Botzki)](https://orcid.org/0000-0001-6691-4233)
 
-Technical Editors: Alexander Botzki
+Technical Editors: Jolan Heyse
 
 License: [![CC BY SA](img/picture003.jpg)](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
 
@@ -213,18 +209,21 @@ License: [![CC BY SA](img/picture003.jpg)](https://creativecommons.org/licenses/
     "@type": "CreativeWork",
     "@id": "https://bioschemas.org/profiles/TrainingMaterial/1.0-RELEASE"
   },
-  "description": "TeSS, how can I help you? This is our interactive hands-on course about efficient use of the ELIXIR TeSS platform.",
-  "keywords": "FAIR, OPEN, Bioinformatics, Teaching, TeSS",
-  "name": "TeSS, how can I help you?",
+  "description": "Machine Learning and Deep Learning Fundamentals; This is our interactive hands-on course about the fundamental principles of machine learning and deep learning.",
+  "keywords": "Machine learning, Deep learning, Artificial intelligence",
+  "name": "Machine Learning and Deep Learning Fundamentals",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "educationalLevel": "beginner",
   "competencyRequired": "none",
   "teaches": [
-    "search events and material in TeSS via direct and faceted search",
-    "add manually and automatically events and material to TeSS",
-    "extract events and material from TeSS by using TeSS widgets"
+    "Explain the fundamental concepts of machine learning and deep learning",
+    "Apply data preprocessing techniques such as handling missing values, scaling features, and splitting datasets",
+    "Implement regression and classification models with scikit-learn and evaluate their performance using appropriate metrics",
+    "Construct simple neural networks and convolutional neural networks with PyTorch framework",
+    "Identify issues with model behavior, like overfitting, and adopt solutions such as regularization or dropout",
+    "Interpret the results of machine learning and deep learning models to make informed decisions for research applications"
   ],
-  "audience": "training providers",
+  "audience": "researchers, training providers",
   "inLanguage": "en-US",
   "learningResourceType": [
     "tutorial"
@@ -232,29 +231,21 @@ License: [![CC BY SA](img/picture003.jpg)](https://creativecommons.org/licenses/
   "author": [
     {
       "@type": "Person",
-      "name": "Bruna Piereck"
-    },
-    {
-      "@type": "Person",
-      "name": "Olivier Sand"
-    },
-    {
-      "@type": "Person",
-      "name": "Alexander Botzki"
+      "name": "Jolan Heyse"
     }
   ],
   "contributor": [
     {
       "@type": "Person",
-      "name": "Yasmine Maes"
+      "name": "Jolan Heyse"
     },
     {
       "@type": "Person",
-      "name": "Finn Bacall"
+      "name": "Bruna Piereck"
     },
     {
       "@type": "Person",
-      "name": "Munazah Andrabi"
+      "name": "Alexander Botzki"
     }
   ]
 }
