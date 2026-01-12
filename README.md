@@ -59,7 +59,7 @@ This is the @edition edition of this workshop, jointly organised by VIB and ELIX
 > We are using the interactive Open Educational Resource online/offline course infrastructure called LiaScript.
 > It is a distributed way of creating and sharing educational content hosted on github.
 > To see this document as an interactive LiaScript rendered version, click on the
-> following link/badge: [LiaScript](https://liascript.github.io/course/?https://raw.githubusercontent.com/vib-tcp/training_material_template/main/README.md)
+> following link/badge: [LiaScript](https://liascript.github.io/course/?https://github.com/jolanhey/machine-learning-and-deep-learning-fundamentals/main/README.md)
 
 ## General context
 
@@ -250,6 +250,7 @@ License: [![CC BY SA](img/picture003.jpg)](https://creativecommons.org/licenses/
   ]
 }
 ```
+
 
 
 
