@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this lesson, please cite it as below."
+authors:
+- given-names: Jolan
+  family-names: Heyse
+  affiliation: VIB
+  orcid: 0000-0003-2179-0366
+contact:
+- given-names: Jolan
+  family-names: Heyse
+  affiliation: VIB
+  orcid: 0000-0003-2179-0366
+title: "Machine Learning and Deep Learning Fundamentals"
+version: v1.0.0
+doi: ~
+date-released: 2026-04-01
+keywords:
+- Machine Learning
+- Deep Learning
+- Neural Networks
+- Data Science
+license: CC-BY
+repository-code: https://github.com/vib-tcp/machine-learning-and-deep-learning-fundamentals
+type: lesson
+abstract: "This two-day, hands-on workshop introduces researchers with little or no prior experience to the fundamentals of machine learning and deep learning, focusing on practical, data-driven methods. Participants learn to process data and build predictive models—including neural networks—using clear explanations and Jupyter notebook exercises they can apply directly to their own research."
+identifiers:
+- type: url
+  value: https://github.com/vib-tcp/machine-learning-and-deep-learning-fundamentals
+  version: v2026.04
