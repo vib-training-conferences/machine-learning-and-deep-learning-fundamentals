@@ -54,6 +54,8 @@ This material is released under the **Creative Commons Attribution 4.0 Internati
 ## Authors
 
 - Jolan Heyse
+- Leander Meuris
+- Jasper Zuallaert
 - Bruna Piereck
 - Alexander Botzki
 
